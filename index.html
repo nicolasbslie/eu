@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Portfólio - Nicolas Bittencourt Studzinski Liell</title>
-    <link rel="stylesheet" href="style.css">
-    
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfólio - Nicolas Bittencourt Studzinski Liell</title>
+
+<meta name="description" content="Portfólio de Nicolas Bittencourt Studzinski Liell, estudante de desenvolvimento web com conhecimentos em HTML, CSS, JavaScript, TypeScript, Java e MySQL.">
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <header>
-    <h1>Nicolas Bittencourt Studzinski Liell</h1>
 
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#skills">Conhecimentos</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#contato">Contato</a>
-    </nav>
+<h1>Nicolas Bittencourt Studzinski Liell</h1>
+
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#skills">Conhecimentos</a>
+<a href="#projetos">Projetos</a>
+<a href="#contato">Contato</a>
+</nav>
+
 </header>
 
+
 <section id="sobre">
-    <div class="foto-perfil">
-    <img src="https://avatars.githubusercontent.com/u/179750977?v=4" alt="Nicolas Bittencourt Studzinski Liell">
+
+<div class="foto-perfil">
+<img src="https://avatars.githubusercontent.com/u/179750977?v=4" alt="Foto de perfil de Nicolas Bittencourt Studzinski Liell">
 </div>
 
-    <h2>Sobre Mim</h2>
+<h2>Sobre Mim</h2>
 
-<p>Sou estudante da área de tecnologia e atualmente estou cursando técnico em desenvolvimento no SENAC, onde venho desenvolvendo conhecimentos em programação e desenvolvimento web. Tenho experiência com as linguagens HTML, CSS, JavaScript, TypeScript e Java, além de trabalhar com banco de dados MySQL para criação e gerenciamento de sistemas.<br><br>Durante meus estudos, venho aprendendo a desenvolver aplicações web, criar interfaces, estruturar páginas e integrar funcionalidades utilizando diferentes tecnologias. Também tenho interesse em aprimorar minhas habilidades em lógica de programação, desenvolvimento de sistemas e organização de bancos de dados.<br><br>Busco constantemente aprender novas tecnologias e evoluir como desenvolvedor, aplicando na prática os conhecimentos adquiridos em projetos e estudos.</p>
-        </div>
+<p>
+Sou estudante da área de tecnologia e atualmente estou cursando técnico em desenvolvimento no SENAC, onde venho desenvolvendo conhecimentos em programação e desenvolvimento web. Tenho experiência com as linguagens HTML, CSS, JavaScript, TypeScript e Java, além de trabalhar com banco de dados MySQL para criação e gerenciamento de sistemas.
+<br><br>
+Durante meus estudos, venho aprendendo a desenvolver aplicações web, criar interfaces, estruturar páginas e integrar funcionalidades utilizando diferentes tecnologias. Também tenho interesse em aprimorar minhas habilidades em lógica de programação, desenvolvimento de sistemas e organização de bancos de dados.
+<br><br>
+Busco constantemente aprender novas tecnologias e evoluir como desenvolvedor, aplicando na prática os conhecimentos adquiridos em projetos e estudos.
+</p>
 
 </section>
 
@@ -41,7 +59,7 @@
 
 <div class="card">
 <h3>HTML</h3>
-<p>Conhecimento em estruturação de páginas web utilizando tags semânticas e organização de conteúdo.</p>
+<p>Estruturação de páginas web utilizando tags semânticas e organização de conteúdo.</p>
 </div>
 
 <div class="card">
@@ -65,8 +83,8 @@
 </div>
 
 <div class="card">
-<h3>Banco de Dados</h3>
-<p>Conhecimento em modelagem de dados e consultas utilizando MySQL.</p>
+<h3>MySQL</h3>
+<p>Conhecimento em modelagem de dados e consultas para gerenciamento de banco de dados.</p>
 </div>
 
 </div>
@@ -78,10 +96,12 @@
 
 <h2>Meus Projetos</h2>
 
+<div class="projeto">
+
+<h3>Jogo Ping Pong</h3>
 
 <p>
-Um jogo simples de Ping Pong desenvolvido para praticar 
-JavaScript e lógica de programação.
+Um jogo simples de Ping Pong desenvolvido para praticar JavaScript e lógica de programação.
 </p>
 
 <a href="https://github.com/nicolasbslie/UC1-25-1T" target="_blank">
@@ -98,15 +118,25 @@ Ver Projeto no GitHub
 <h2>Contato</h2>
 
 <p>Email: nicolasbslie@gmail.com</p>
-<p> WhatsApp:
-<a href="https://wa.me/5551999416013" target="_blank" class="whatsapp-button">Fale comigo no WhatsApp</a>
-<p>GitHub:
-<a href="https://github.com/nicolasbslie">
-https://github.com/nicolasbslie
+
+<p>
+WhatsApp:
+<a href="https://wa.me/5551999416013" target="_blank" class="whatsapp-button">
+Fale comigo no WhatsApp
 </a>
-<p>Linkedin:
-<a href="https://www.linkedin.com/in/nicolas-liell/">
-    https://www.linkedin.com/in/nicolas-liell/
+</p>
+
+<p>
+GitHub:
+<a href="https://github.com/nicolasbslie" target="_blank">
+github.com/nicolasbslie
+</a>
+</p>
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/nicolas-liell/" target="_blank">
+linkedin.com/in/nicolas-liell
 </a>
 </p>
 
@@ -115,9 +145,11 @@ https://github.com/nicolasbslie
 
 <footer>
 
-<p>© 2026 - Nicolas Bittencourt Studzinski Liell</p>
+<p>© <span id="ano"></span> - Nicolas Bittencourt Studzinski Liell</p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
